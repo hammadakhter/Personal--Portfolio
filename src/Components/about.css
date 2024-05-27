@@ -1,0 +1,60 @@
+.about-Heading{
+    font-size: 50px;
+    border: 2px solid cyan;
+    width: 45%;
+    height: 10vh;
+    box-shadow: 0 0 20px cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-Heading:hover{
+    background: cyan;
+    color: black;
+    transition: .5s;
+    border: 2px solid white;
+    box-shadow: 0 0 20px cyan;
+}
+
+.about-paragraph{
+    padding: 45px 0 150px 0;
+    font-size: 18px;
+
+}
+
+.detail{
+    position: relative;
+    bottom: 100px;
+}
+
+.heading{
+    position: relative;
+    bottom: 10px;
+    color: aqua;
+}
+
+.heading1{
+    color: cyan;
+}
+
+.heading2{
+    position: relative;
+    top: 10px;
+    color: cyan;
+}
+
+.paragraph{
+    position: relative;
+    bottom: 10px;
+}
+
+.paragraph1{
+    text-decoration: underline;
+}
+
+.paragraph2{
+    position: relative;
+    top: 10px;
+    text-decoration: underline;
+}
