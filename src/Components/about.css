@@ -5,6 +5,7 @@
     height: 10vh;
     box-shadow: 0 0 20px cyan;
     display: flex;
+    border-radius: 7px;
     justify-content: center;
     align-items: center;
 }
@@ -13,19 +14,19 @@
     background: cyan;
     color: black;
     transition: .5s;
-    border: 2px solid white;
+    border-radius: 7px;
     box-shadow: 0 0 20px cyan;
 }
 
 .about-paragraph{
-    padding: 45px 0 150px 0;
+    padding: 40px 0 120px 0;
     font-size: 18px;
 
 }
 
 .detail{
     position: relative;
-    bottom: 100px;
+    bottom: 90px;
 }
 
 .heading{
@@ -57,4 +58,10 @@
     position: relative;
     top: 10px;
     text-decoration: underline;
+}
+
+.btn-cv{
+    position: relative;
+    top: 45px;
+    right: 2px;
 }

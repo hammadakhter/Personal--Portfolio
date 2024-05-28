@@ -23,8 +23,9 @@ const About = () => {
               <span className='heading2'>Linkedin</span>
               <p href={"https://www.linkedin.com/in/muhammad-hammad-9b9b26268"} className='paragraph2'>https://www.linkedin.com/in/muhammad-hammad-9b9b26268</p>
 
-              
-            </div></div>
+              <a className='btn btn-cv' href="./Hammad_Akhter_-_Frontend_Developer.pdf" download>Download CV</a>
+            </div>
+            </div>
             
             </section>
 </div>

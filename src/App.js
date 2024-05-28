@@ -2,7 +2,8 @@ import './App.css';
 import About from './Components/About';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-// import Services from './Components/Services';
+import Projects from './Components/Projects';
+import Services from './Components/Services';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
-      {/* <Services/> */}
+      <Services/>
+      <Projects/>
     </>
   );
 }
